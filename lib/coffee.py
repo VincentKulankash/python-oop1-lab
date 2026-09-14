@@ -27,6 +27,5 @@ class Coffee:
             self._size = value
 
     def tip(self):
-        """Prints a thank-you message and increases the price by 1."""
-        print("This coffee is great, here's a tip!")
+        print("This coffee is great, here’s a tip!")
         self.price += 1
